@@ -77,4 +77,23 @@
 .right-section {
   background-color: lightblue;
   width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upload-icon {
+  height: 24px;
+}
+
+.youtube-apps-icon {
+  height: 24px;
+}
+
+.notifications-icon {
+  height: 24px;
+}
+
+.current-user-picture {
+  height: 32px;
 }
