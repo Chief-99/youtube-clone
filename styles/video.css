@@ -8,11 +8,16 @@
 }
 
 .video-time {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   position: absolute;
   bottom: 10px;
   right: 5px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 4px;
+  border-radius: 2px;
 }
 
 .video-info-grid {
