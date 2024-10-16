@@ -111,10 +111,14 @@
 
 .notifications-count {
   position: absolute;
-  top: 0;
-  right: 0;
-  background-color: red;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(199, 0, 0);
   color: white;
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 100px;
 }
 
 .current-user-picture {
