@@ -105,6 +105,18 @@
   height: 24px;
 }
 
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+}
+
 .current-user-picture {
   height: 32px;
   border-radius: 100px;
