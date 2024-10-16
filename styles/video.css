@@ -4,6 +4,15 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
 }
 
 .video-info-grid {
