@@ -76,9 +76,11 @@
   font-size: 12px;
   bottom: -30px;
   opacity: 0;
+  transition: opacity 200ms;
+  pointer-events: none;
 }
 
-.serach-button:hover .tooltip {
+.search-button:hover .tooltip {
   opacity: 0.9;
 }
 
