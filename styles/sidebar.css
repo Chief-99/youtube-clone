@@ -9,8 +9,15 @@
 
 .sidebar-link {
   height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar-link:hover {
   background-color: rgb(236, 236, 236);
+}
+
+.sidebar-link img {
+  height: 24px;
 }
