@@ -30,9 +30,9 @@
 
 .middle-section {
   flex: 1;
-  margin-left: 70px;
+  margin-left: 66px;
   margin-right: 35px;
-  max-width: 500px;
+  max-width: 470px;
   display: flex;
   align-items: center;
 }
@@ -40,7 +40,7 @@
 .search-bar {
   flex: 1;
   height: 36px;
-  padding-left: 10px;
+  padding: 1px 2px 1px 12px;
   font-size: 16px;
   border-width: 1px;
   border-style: solid;
@@ -63,7 +63,7 @@
   border-style: solid;
   border-color:rgb(194, 194, 194);
   margin-left: -1px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .search-button,
