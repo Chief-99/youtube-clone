@@ -64,6 +64,22 @@
   border-color:rgb(194, 194, 194);
   margin-left: -1px;
   margin-right: 10px;
+  position: relative;
+}
+
+.search-button .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+}
+
+.serach-button:hover .tooltip {
+  opacity: 0.9;
 }
 
 .search-icon {
