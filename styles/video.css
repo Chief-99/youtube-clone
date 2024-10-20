@@ -38,7 +38,8 @@
   margin-bottom: 10px;
 }
 
-.video-title a {
+.video-title a,
+.channel-link {
   text-decoration: none;
   color: inherit;
 }
