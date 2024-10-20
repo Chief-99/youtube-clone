@@ -38,6 +38,11 @@
   margin-bottom: 10px;
 }
 
+.video-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .video-author,
 .video-stats {
   font-size: 12px;
