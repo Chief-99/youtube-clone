@@ -31,6 +31,11 @@
   position: absolute;
 }
 
+.channel-picture-tooltip {
+  z-index: 300;
+  position: absolute;
+}
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
