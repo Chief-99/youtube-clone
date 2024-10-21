@@ -34,6 +34,8 @@
 .channel-picture-tooltip {
   z-index: 300;
   position: absolute;
+  background-color: gray;
+  display: flex;
 }
 
 .video-title {
