@@ -34,7 +34,7 @@
   position: relative;
 }
 
-.channel-picture-tooltip {
+.channel-picture-container .channel-picture-tooltip {
   display: flex;
   background-color: white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
@@ -46,7 +46,13 @@
   padding: 12px;
   align-items: center;
   min-width: 200px;
-  
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms;
+}
+
+.channel-picture-container:hover .channel-picture-tooltip {
+  opacity: 1;
 }
 
 .channel-picture-tooltip img {
