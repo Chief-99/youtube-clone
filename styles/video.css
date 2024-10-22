@@ -50,6 +50,12 @@
   border-radius: 100px;
 }
 
+.channel-tooltip-author {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
