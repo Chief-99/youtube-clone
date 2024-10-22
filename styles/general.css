@@ -1,12 +1,13 @@
 p {
-  font-family: Roboto, Arial;
   margin: 0;
 }
 
 body {
+  font-family: Roboto, Arial;
   margin: 0;
   padding-top: 81px;
   padding-left: 96px;
   padding-right: 24px;
+  padding: 81px 24px 0 96px;
   background-color: rgb(249, 249, 249);
 }
