@@ -41,6 +41,13 @@
   position: absolute;
   bottom: -100px;
   z-index: 50;
+  padding: 12px;
+  align-items: center;
+}
+
+.channel-picture-tooltip img {
+  width: 48px;
+  border-radius: 100px;
 }
 
 .video-title {
